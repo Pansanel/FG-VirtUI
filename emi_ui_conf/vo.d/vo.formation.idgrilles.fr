@@ -1,0 +1,6 @@
+SW_DIR=$VO_SW_DIR/vo.formation.idgrilles.fr
+DEFAULT_SE=$CLASSIC_HOST
+STORAGE_DIR=$CLASSIC_HOST/vo.formation.idgrilles.fr
+VOMS_SERVERS="vomss://cclcgvomsli01.in2p3.fr:8443/voms/vo.formation.idgrilles.fr?/vo.formation.idgrilles.fr/"
+VOMSES="'vo.formation.idgrilles.fr cclcgvomsli01.in2p3.fr 15012 /O=GRID-FR/C=FR/O=CNRS/OU=CC-IN2P3/CN=cclcgvomsli01.in2p3.fr vo.formation.idgrilles.fr 24'"
+VOMS_CA_DN="'/C=FR/O=CNRS/CN=GRID2-FR'"

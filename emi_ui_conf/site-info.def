@@ -1,0 +1,39 @@
+#---------------------------------
+# General configuration variables
+#---------------------------------
+USERS_CONF=${YAIM_ROOT}/glite/yaim/etc/users.conf
+GROUPS_CONF=${YAIM_ROOT}/glite/yaim/etc/groups.conf
+MY_DOMAIN="in2p3.fr"
+GLOBUS_TCP_PORT_RANGE="24000,25000"
+#---------------------------------
+# Site configuration variables
+#---------------------------------
+SITE_NAME="France-Grilles"
+#---------------------------------
+# CE configuration variables
+#---------------------------------
+CE_HOST=sbgce2.$MY_DOMAIN
+#-------------------------------------
+# WMS and RB configuration variables
+#-------------------------------------
+WMS_HOST=sbgwms1.$MY_DOMAIN
+RB_HOST=$WMS_HOST
+#----------------------------------
+# myproxy configuration variables
+#----------------------------------
+PX_HOST=myproxy.cern.ch
+#------------------------------
+# DPM configuration variables
+#------------------------------
+DPM_HOST="sbgse1.$MY_DOMAIN"
+#-------------------------------
+# BDII configuration variables
+#-------------------------------
+BDII_HOST=topbdii.grif.fr
+SITE_BDII_HOST=sbgbdii.$MY_DOMAIN
+#-----------------------------
+# VO configuration variables
+#-----------------------------
+VOS="dteam ops vo.formation.idgrilles.fr vo.france-grilles.fr"
+VO_SW_DIR=/opt/exp_soft
+QUEUES="dteam ops vo.formation.idgrilles.fr vo.france-grilles.fr"
